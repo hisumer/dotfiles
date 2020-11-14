@@ -26,3 +26,14 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # zsh start
 zsh
+
+
+# Podremos navegar fácilmente por los últimos directorios usados con Z:
+brew install z
+# Tendremos un fuzzy finder para encontrar todo lo que queramos con fzf:
+brew install fzf
+# El buscar documentación será mucho más fácil con tldr:
+brew install tldr
+
+# it z command not found
+source "$(brew --prefix)/etc/profile.d/z.sh"
