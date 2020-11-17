@@ -8,7 +8,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/i
 
 
 # Agregar los directorios al profile
-echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/alby/.profile
+echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/alby/.profile; 
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
  
 /*
