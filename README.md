@@ -8,22 +8,21 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/i
 
 
 # Agregar los directorios al profile
-echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/alby/.profile; 
+echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/alby/.profile <br>
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
  
-/*
+<!---
   # A continuación, debe agregar los directorios /home/linuxbrew/.linuxbrew/bin (o ~/.linuxbrew/bin ) y /home/linuxbrew /. linuxbrew/sbin (o ~/.linuxbrew/sbin ) a su RUTA y a su script de inicialización de shell bash ~/.bashrc como se muestra.
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:$PATH"' >>~/.bashrc
-  echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >>~/.bashrc
-  echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >>~/.bashrc
-  # ########## NO PARECE NECESARIO
-*/
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:$PATH"' >>~/.bashrc <br>
+  echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >>~/.bashrc <br>
+  echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >>~/.bashrc 
+-->
 
 # try to install a package
 brew install hello
 
 # instal zsh
-brew install zsh
+brew install zsh <br>
 brew install zsh-completions
 
 # install ohmyzsh https://ohmyz.sh/#install
